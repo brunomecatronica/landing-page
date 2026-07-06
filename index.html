@@ -850,7 +850,7 @@
     <section class="hero">
         <div class="hero-content">
             <div class="profile-container">
-                <img src="images/home-images/perfil-bruno.jpeg" alt="Bruno Oliveira" class="profile-image">
+                <img src="images/home-images/institu-bruno-gomes.png" alt="Bruno Oliveira" class="profile-image">
             </div>
             <h1>Projetos Bruno Oliveira</h1>
             <p class="hero-subtitle">Desenvolvimento de Sistemas Inteligentes: Da Concepção de Hardware à Automação de
@@ -868,6 +868,73 @@
             <h2 class="section-title">Projetos de Programação & Mecatrônica</h2>
 
             <div class="projects-grid">
+                <!-- Vestia -->
+                <div class="project-card fade-in">
+                    <div class="multi-image-grid" data-gallery="vestia">
+                        <img src="images/vestia-images/vest1.png" alt="Vestia - Tela inicial com login Google">
+                        <img src="images/vestia-images/vest2.png" alt="Vestia - Dashboard de catálogo de produtos gerados por IA">
+                        <img src="images/vestia-images/vest3.png" alt="Vestia - Geração de imagens e vídeos com modelos IA">
+                        <img src="images/vestia-images/vest4.jpg" alt="Vestia - Comparativo peça original vs. modelo gerado por IA">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">SaaS & Inteligência Artificial Generativa</div>
+                        <h3 class="project-title">Vestia - Estúdio de Moda com IA</h3>
+                        <p class="project-description">
+                            SaaS que transforma fotos de peças de roupa (em manequim ou still) em fotos realistas de
+                            modelos vestindo o produto, geradas por Inteligência Artificial. Marcas e lojistas de moda
+                            enviam o catálogo e recebem imagens e vídeos prontos para e-commerce e redes sociais, com
+                            login via Google, legendas geradas por IA, sistema de créditos/tokens e planos de
+                            assinatura.
+                        </p>
+                        <div class="project-challenge">
+                            <h4>Desafio</h4>
+                            <p>Gerar imagens de modelos fotorrealistas preservando fielmente cor, textura, caimento e
+                                estampa da peça original, com diferentes tipos físicos e cenários, além de suportar
+                                também geração de vídeo. Foi necessário desenhar um sistema de créditos/tokens e planos
+                                de assinatura para controlar o custo das gerações de IA, mantendo uma experiência
+                                simples de catálogo e dashboard para o lojista.</p>
+                        </div>
+                        <div class="project-links" style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <a href="https://vestia.tec.br" target="_blank" class="project-link"
+                                rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                                Ver Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- X Pinball -->
+                <div class="project-card fade-in">
+                    <div class="multi-image-grid" data-gallery="pinball">
+                        <img src="images/pimball-images/pim1.jpeg" alt="X Pinball - Tela de login com Google">
+                        <img src="images/pimball-images/pim2.jpeg" alt="X Pinball - Mesa de pinball com física em tempo real">
+                        <img src="images/pimball-images/pim3.jpeg" alt="X Pinball - Editor de níveis com ferramentas de edição">
+                        <img src="images/pimball-images/pim4.jpeg" alt="X Pinball - Editor de posicionamento de flippers">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Jogos & Motor de Física</div>
+                        <h3 class="project-title">X Pinball</h3>
+                        <p class="project-description">
+                            Jogo de pinball para Android desenvolvido em Flutter com o motor Flame/Forge2D, simulando
+                            física realista de flippers, bumpers, slingshots e rampas com curvas Bezier. Inclui um
+                            editor de níveis completo embutido no próprio app (posicionamento, hitboxes, cores e
+                            curvas de rampa em tempo real), além de login com Google e sincronização de perfil,
+                            pontuação e ranking via Firebase Authentication e Firestore. Arquitetura white-label:
+                            logo, cores, tema e cenário da mesa são configuráveis, permitindo relançar o mesmo motor
+                            de jogo com identidade visual própria para diferentes marcas/clientes.
+                        </p>
+                        <div class="project-challenge">
+                            <h4>Desafio</h4>
+                            <p>Construir uma simulação de física de pinball convincente e responsiva usando Forge2D,
+                                ao mesmo tempo em que se desenvolvia um editor visual completo (drag-and-drop, curvas
+                                Bezier, ajuste fino de hitboxes) para permitir a criação e o ajuste da mesa diretamente
+                                no dispositivo, com persistência de cenários e progresso do jogador na nuvem — mantendo
+                                a base de código pronta para ser reaproveitada como produto white-label.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- PlugAlerta - Monitor Inteligente de Energia -->
                 <div class="project-card fade-in">
                     <div class="multi-image-grid" data-gallery="plugalerta">
@@ -924,12 +991,8 @@
                 <div class="project-card fade-in">
                     <div class="multi-image-grid" data-gallery="snuggle">
                         <img src="images/snuggle-app/sunggle1.jpg" alt="Snuggle App - Interface Principal">
-                        <img src="images/snuggle-app/sunggle2.jpeg" alt="Snuggle App - Funcionalidades">
                         <img src="images/snuggle-app/sunggle3.jpeg" alt="Snuggle App - Design">
                         <img src="images/snuggle-app/sunggle4.jpeg" alt="Snuggle App - UX">
-                        <img src="images/snuggle-app/sunggle5.jpeg" alt="Snuggle App - Interface">
-                        <img src="images/snuggle-app/sunggle6.jpeg" alt="Snuggle App - Recursos">
-                        <img src="images/snuggle-app/sunggle7.jpeg" alt="Snuggle App - Navegação">
                         <img src="images/snuggle-app/sunggle8.jpeg" alt="Snuggle App - Finalização">
                     </div>
                     <div class="project-content">
@@ -982,8 +1045,6 @@
                             alt="Sensoriamento de Leira - Implementação em Campo">
                         <img src="images/projeto-leira-uerj/leira-4-20240316_122711.jpg"
                             alt="Sensoriamento de Leira - Módulo de Conexão Web">
-                        <img src="images/projeto-leira-uerj/leira-5-20220327_142119.jpg"
-                            alt="Sensoriamento de Leira - Monitoramento de Dados">
                     </div>
                     <div class="project-content">
                         <div class="project-category">IoT & Sensoriamento</div>
@@ -1028,10 +1089,6 @@
                             alt="Cortina Automatizada - Detalhes">
                         <img src="images/desenvolvimento-cortina-automatizada/veled%203.png"
                             alt="Cortina Automatizada - Componentes">
-                        <img src="images/desenvolvimento-cortina-automatizada/veled4.png"
-                            alt="Cortina Automatizada - Implementação">
-                        <img src="images/desenvolvimento-cortina-automatizada/veled5.jpg"
-                            alt="Cortina Automatizada - Sistema">
                         <img src="images/desenvolvimento-cortina-automatizada/veled6.png"
                             alt="Cortina Automatizada - Aplicação">
                     </div>
@@ -1054,19 +1111,12 @@
                 <!-- Regui - Vaso para plantas com sistema inteligente de irrigação automática com Monitoramento em Tempo Real -->
                 <div class="project-card fade-in">
                     <div class="multi-image-grid" data-gallery="vaso">
-                        <img src="images/vaso-automatizado/regui3.png"
-                            alt="Regui - Sistema completo de irrigação inteligente">
                         <img src="images/vaso-automatizado/regui1.png"
                             alt="Regui - Sensores de umidade do solo e reservatório">
-                        <img src="images/vaso-automatizado/regui2.png"
-                            alt="Regui - Aplicativo Flutter para monitoramento remoto">
                         <img src="images/vaso-automatizado/regui4.png"
                             alt="Regui - ESP32 com FreeRTOS e componentes do sistema">
                         <img src="images/vaso-automatizado/regui5.png" alt="Regui - Detalhes do hardware e sensores">
                         <img src="images/vaso-automatizado/regui7.png" alt="Regui - Bomba de água em modo pulsado">
-                        <img src="images/vaso-automatizado/regui8.png"
-                            alt="Regui - Sistema completo com display LCD e LEDs">
-                        <img src="images/vaso-automatizado/regui9.png" alt="Regui - Aplicação prática do sistema">
                     </div>
                     <div class="project-content">
                         <div class="project-category">IoT & Automação Residencial</div>
@@ -1192,6 +1242,28 @@
     </footer>
 
     <!-- Modais de Galeria -->
+    <!-- Galeria Vestia -->
+    <div id="gallery-vestia" class="gallery-modal">
+        <div class="gallery-content">
+            <div class="gallery-close">&times;</div>
+            <div class="gallery-nav gallery-prev">&lt;</div>
+            <div class="gallery-nav gallery-next">&gt;</div>
+            <img src="images/vestia-images/vest1.png" alt="Vestia - Tela inicial com login Google"
+                class="gallery-main-image">
+        </div>
+    </div>
+
+    <!-- Galeria Pinball -->
+    <div id="gallery-pinball" class="gallery-modal">
+        <div class="gallery-content">
+            <div class="gallery-close">&times;</div>
+            <div class="gallery-nav gallery-prev">&lt;</div>
+            <div class="gallery-nav gallery-next">&gt;</div>
+            <img src="images/pimball-images/pim1.jpeg" alt="X Pinball - Tela de login com Google"
+                class="gallery-main-image">
+        </div>
+    </div>
+
     <!-- Galeria Leira -->
     <div id="gallery-leira" class="gallery-modal">
         <div class="gallery-content">
@@ -1220,7 +1292,7 @@
             <div class="gallery-close">&times;</div>
             <div class="gallery-nav gallery-prev">&lt;</div>
             <div class="gallery-nav gallery-next">&gt;</div>
-            <img src="images/vaso-automatizado/regui3.png" alt="Regui - Sistema completo de irrigação inteligente"
+            <img src="images/vaso-automatizado/regui1.png" alt="Regui - Sistema completo de irrigação inteligente"
                 class="gallery-main-image">
         </div>
     </div>
@@ -1358,40 +1430,41 @@
 
         // Arrays de imagens para cada galeria
         const galleryImages = {
+            'vestia': [
+                'images/vestia-images/vest1.png',
+                'images/vestia-images/vest2.png',
+                'images/vestia-images/vest3.png',
+                'images/vestia-images/vest4.jpg'
+            ],
+            'pinball': [
+                'images/pimball-images/pim1.jpeg',
+                'images/pimball-images/pim2.jpeg',
+                'images/pimball-images/pim3.jpeg',
+                'images/pimball-images/pim4.jpeg'
+            ],
             'snuggle': [
                 'images/snuggle-app/sunggle1.jpg',
-                'images/snuggle-app/sunggle2.jpeg',
                 'images/snuggle-app/sunggle3.jpeg',
                 'images/snuggle-app/sunggle4.jpeg',
-                'images/snuggle-app/sunggle5.jpeg',
-                'images/snuggle-app/sunggle6.jpeg',
-                'images/snuggle-app/sunggle7.jpeg',
                 'images/snuggle-app/sunggle8.jpeg'
             ],
             'leira': [
                 'images/projeto-leira-uerj/leira-1-20240328_141041.jpg',
                 'images/projeto-leira-uerj/leira-2-IMG-20220423-WA0014.jpg',
                 'images/projeto-leira-uerj/leira-3-20240426_142716.jpg',
-                'images/projeto-leira-uerj/leira-4-20240316_122711.jpg',
-                'images/projeto-leira-uerj/leira-5-20220327_142119.jpg'
+                'images/projeto-leira-uerj/leira-4-20240316_122711.jpg'
             ],
             'cortina': [
                 'images/desenvolvimento-cortina-automatizada/veled1.png',
                 'images/desenvolvimento-cortina-automatizada/valed2.png',
                 'images/desenvolvimento-cortina-automatizada/veled%203.png',
-                'images/desenvolvimento-cortina-automatizada/veled4.png',
-                'images/desenvolvimento-cortina-automatizada/veled5.jpg',
                 'images/desenvolvimento-cortina-automatizada/veled6.png'
             ],
             'vaso': [
-                'images/vaso-automatizado/regui3.png',
                 'images/vaso-automatizado/regui1.png',
-                'images/vaso-automatizado/regui2.png',
                 'images/vaso-automatizado/regui4.png',
                 'images/vaso-automatizado/regui5.png',
-                'images/vaso-automatizado/regui7.png',
-                'images/vaso-automatizado/regui8.png',
-                'images/vaso-automatizado/regui9.png'
+                'images/vaso-automatizado/regui7.png'
             ],
             'plugalerta': [
                 'images/plugalerta_landing/plug1.png',
@@ -1537,33 +1610,30 @@
         // Preload de imagens para melhor performance
         function preloadImages() {
             const imageUrls = [
+                'images/vestia-images/vest1.png',
+                'images/vestia-images/vest2.png',
+                'images/vestia-images/vest3.png',
+                'images/vestia-images/vest4.jpg',
+                'images/pimball-images/pim1.jpeg',
+                'images/pimball-images/pim2.jpeg',
+                'images/pimball-images/pim3.jpeg',
+                'images/pimball-images/pim4.jpeg',
                 'images/snuggle-app/sunggle1.jpg',
-                'images/snuggle-app/sunggle2.jpeg',
                 'images/snuggle-app/sunggle3.jpeg',
                 'images/snuggle-app/sunggle4.jpeg',
-                'images/snuggle-app/sunggle5.jpeg',
-                'images/snuggle-app/sunggle6.jpeg',
-                'images/snuggle-app/sunggle7.jpeg',
                 'images/snuggle-app/sunggle8.jpeg',
                 'images/projeto-leira-uerj/leira-1-20240328_141041.jpg',
                 'images/projeto-leira-uerj/leira-2-IMG-20220423-WA0014.jpg',
                 'images/projeto-leira-uerj/leira-3-20240426_142716.jpg',
                 'images/projeto-leira-uerj/leira-4-20240316_122711.jpg',
-                'images/projeto-leira-uerj/leira-5-20220327_142119.jpg',
                 'images/desenvolvimento-cortina-automatizada/veled1.png',
                 'images/desenvolvimento-cortina-automatizada/valed2.png',
                 'images/desenvolvimento-cortina-automatizada/veled%203.png',
-                'images/desenvolvimento-cortina-automatizada/veled4.png',
-                'images/desenvolvimento-cortina-automatizada/veled5.jpg',
                 'images/desenvolvimento-cortina-automatizada/veled6.png',
-                'images/vaso-automatizado/regui3.png',
                 'images/vaso-automatizado/regui1.png',
-                'images/vaso-automatizado/regui2.png',
                 'images/vaso-automatizado/regui4.png',
                 'images/vaso-automatizado/regui5.png',
                 'images/vaso-automatizado/regui7.png',
-                'images/vaso-automatizado/regui8.png',
-                'images/vaso-automatizado/regui9.png',
                 'images/plugalerta_landing/plug1.png',
                 'images/plugalerta_landing/plug2.png',
                 'images/plugalerta_landing/plug3.png',
