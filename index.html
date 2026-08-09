@@ -868,6 +868,34 @@
             <h2 class="section-title">Projetos de Programação & Mecatrônica</h2>
 
             <div class="projects-grid">
+                <!-- Telona -->
+                <div class="project-card fade-in">
+                    <div class="multi-image-grid" data-gallery="telona">
+                        <img src="images/telona-images/telona1.jpeg" alt="Telona - Tema claro de alto contraste">
+                        <img src="images/telona-images/telona2.jpeg" alt="Telona - Tema escuro neon verde">
+                        <img src="images/telona-images/telona3.jpeg" alt="Telona - Tema escuro neon azul">
+                        <img src="images/telona-images/telona4.jpeg" alt="Telona - Tema com cores personalizadas por ícone">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Acessibilidade & Desenvolvimento Mobile</div>
+                        <h3 class="project-title">Telona - Launcher Android Acessível</h3>
+                        <p class="project-description">
+                            Launcher Android voltado para acessibilidade, criado para simplificar o uso do celular por
+                            idosos e pessoas com baixa visão. Tela inicial com botões grandes e apenas os atalhos
+                            essenciais (Telefone, Contatos, Câmera, Fotos, WhatsApp, Gmail, Mensagens e ChatGPT), além
+                            de um botão de Emergência sempre visível. Diversos temas de alto contraste e cores
+                            personalizáveis por ícone permitem adaptar a aparência mantendo a legibilidade.
+                        </p>
+                        <div class="project-challenge">
+                            <h4>Desafio</h4>
+                            <p>Projetar uma interface radicalmente simplificada sem perder personalização, garantindo
+                                alvos de toque grandes, contraste adequado em todos os temas (claro, escuro e cores
+                                neon/personalizadas) e acesso instantâneo a uma função de emergência, atendendo um
+                                público com necessidades específicas de acessibilidade.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Vestia -->
                 <div class="project-card fade-in">
                     <div class="multi-image-grid" data-gallery="vestia">
@@ -1242,6 +1270,17 @@
     </footer>
 
     <!-- Modais de Galeria -->
+    <!-- Galeria Telona -->
+    <div id="gallery-telona" class="gallery-modal">
+        <div class="gallery-content">
+            <div class="gallery-close">&times;</div>
+            <div class="gallery-nav gallery-prev">&lt;</div>
+            <div class="gallery-nav gallery-next">&gt;</div>
+            <img src="images/telona-images/telona1.jpeg" alt="Telona - Tema claro de alto contraste"
+                class="gallery-main-image">
+        </div>
+    </div>
+
     <!-- Galeria Vestia -->
     <div id="gallery-vestia" class="gallery-modal">
         <div class="gallery-content">
@@ -1430,6 +1469,12 @@
 
         // Arrays de imagens para cada galeria
         const galleryImages = {
+            'telona': [
+                'images/telona-images/telona1.jpeg',
+                'images/telona-images/telona2.jpeg',
+                'images/telona-images/telona3.jpeg',
+                'images/telona-images/telona4.jpeg'
+            ],
             'vestia': [
                 'images/vestia-images/vest1.png',
                 'images/vestia-images/vest2.png',
@@ -1610,6 +1655,10 @@
         // Preload de imagens para melhor performance
         function preloadImages() {
             const imageUrls = [
+                'images/telona-images/telona1.jpeg',
+                'images/telona-images/telona2.jpeg',
+                'images/telona-images/telona3.jpeg',
+                'images/telona-images/telona4.jpeg',
                 'images/vestia-images/vest1.png',
                 'images/vestia-images/vest2.png',
                 'images/vestia-images/vest3.png',
